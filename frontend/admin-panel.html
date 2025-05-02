@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <a href="admin-panel.html">Admin Panel</a>
+  <a href="mess-record.html">Mess Records</a>
+</nav>
+
+<section>
+  <h2>Upload Daily Menu</h2>
+  <form>
+    <label>Upload Image:</label>
+    <input type="file" accept="image/*">
+    
+    <label>Menu Description:</label>
+    <textarea placeholder="Enter today's menu..."></textarea>
+    
+    <button type="submit">Upload</button>
+  </form>
+</section>
+
+<section>
+  <h2>Update Menu Items</h2>
+  <form>
+    <label>Food Item:</label>
+    <input type="text">
+
+    <label>Price:</label>
+    <input type="number">
+
+    <label>Availability:</label>
+    <select>
+      <option>Available</option>
+      <option>Unavailable</option>
+    </select>
+
+    <button type="submit">Update</button>
+  </form>
+</section>
+
+</body>
+</html>
